@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="90b1b7e6-c2a8-45bb-bd79-f51304ec8468" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/application/ProgramRectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entities/Rectangle.java" afterDir="false" />
+    <list default="true" id="90b1b7e6-c2a8-45bb-bd79-f51304ec8468" name="Changes" comment="Rectangle exercise">
+      <change afterPath="$PROJECT_DIR$/src/application/ProgramEmployee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/Employee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-course-exercises.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java-course-exercises.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +51,7 @@
   "keyToString": {
     "Application.Main.executor": "Run",
     "Application.Program.executor": "Run",
+    "Application.ProgramEmployee.executor": "Run",
     "Application.ProgramRectangle.executor": "Run",
     "Application.ProgramTriangle.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -68,10 +68,23 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ProgramRectangle">
+  <component name="RunManager" selected="Application.ProgramEmployee">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="java-course-exercises" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProgramEmployee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="application.ProgramEmployee" />
+      <module name="java-course-exercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="application.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -104,6 +117,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ProgramEmployee" />
         <item itemvalue="Application.ProgramRectangle" />
         <item itemvalue="Application.ProgramTriangle" />
         <item itemvalue="Application.Main" />
@@ -130,7 +144,7 @@
       <workItem from="1721471574491" duration="5642000" />
       <workItem from="1721558224284" duration="2104000" />
       <workItem from="1721561769215" duration="227000" />
-      <workItem from="1721562006666" duration="1251000" />
+      <workItem from="1721562006666" duration="2108000" />
     </task>
     <task id="LOCAL-00001" summary="basic while">
       <option name="closed" value="true" />
@@ -148,7 +162,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721561186498</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Rectangle exercise">
+      <option name="closed" value="true" />
+      <created>1721563305694</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1721563305694</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,6 +191,7 @@
     <MESSAGE value="basic while" />
     <MESSAGE value="exercise area of a triangle" />
     <MESSAGE value="comparing areas with if" />
-    <option name="LAST_COMMIT_MESSAGE" value="comparing areas with if" />
+    <MESSAGE value="Rectangle exercise" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rectangle exercise" />
   </component>
 </project>
