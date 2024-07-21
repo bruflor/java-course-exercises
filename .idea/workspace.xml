@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="90b1b7e6-c2a8-45bb-bd79-f51304ec8468" name="Changes" comment="Rectangle exercise">
-      <change afterPath="$PROJECT_DIR$/src/application/ProgramEmployee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entities/Employee.java" afterDir="false" />
+    <list default="true" id="90b1b7e6-c2a8-45bb-bd79-f51304ec8468" name="Changes" comment="Employee salary exercise">
+      <change afterPath="$PROJECT_DIR$/src/application/ProgramStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,6 +53,7 @@
     "Application.Program.executor": "Run",
     "Application.ProgramEmployee.executor": "Run",
     "Application.ProgramRectangle.executor": "Run",
+    "Application.ProgramStudent.executor": "Run",
     "Application.ProgramTriangle.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -68,7 +69,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ProgramEmployee">
+  <component name="RunManager" selected="Application.ProgramStudent">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="java-course-exercises" />
@@ -102,6 +103,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ProgramStudent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="application.ProgramStudent" />
+      <module name="java-course-exercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="application.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ProgramTriangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="application.ProgramTriangle" />
       <module name="java-course-exercises" />
@@ -117,6 +131,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ProgramStudent" />
         <item itemvalue="Application.ProgramEmployee" />
         <item itemvalue="Application.ProgramRectangle" />
         <item itemvalue="Application.ProgramTriangle" />
@@ -144,7 +159,7 @@
       <workItem from="1721471574491" duration="5642000" />
       <workItem from="1721558224284" duration="2104000" />
       <workItem from="1721561769215" duration="227000" />
-      <workItem from="1721562006666" duration="2108000" />
+      <workItem from="1721562006666" duration="3097000" />
     </task>
     <task id="LOCAL-00001" summary="basic while">
       <option name="closed" value="true" />
@@ -170,7 +185,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721563305694</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Employee salary exercise">
+      <option name="closed" value="true" />
+      <created>1721564352959</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1721564352959</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,6 +215,7 @@
     <MESSAGE value="exercise area of a triangle" />
     <MESSAGE value="comparing areas with if" />
     <MESSAGE value="Rectangle exercise" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rectangle exercise" />
+    <MESSAGE value="Employee salary exercise" />
+    <option name="LAST_COMMIT_MESSAGE" value="Employee salary exercise" />
   </component>
 </project>
