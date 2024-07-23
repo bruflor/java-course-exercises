@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="90b1b7e6-c2a8-45bb-bd79-f51304ec8468" name="Changes" comment="Employee salary exercise">
-      <change afterPath="$PROJECT_DIR$/src/application/ProgramStudent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entities/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/application/ProgramBank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/BankAccount.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,6 +51,7 @@
   "keyToString": {
     "Application.Main.executor": "Run",
     "Application.Program.executor": "Run",
+    "Application.ProgramBank.executor": "Run",
     "Application.ProgramEmployee.executor": "Run",
     "Application.ProgramRectangle.executor": "Run",
     "Application.ProgramStudent.executor": "Run",
@@ -69,10 +70,16 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ProgramStudent">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+  <component name="RunManager" selected="Application.ProgramBank">
+    <configuration name="ProgramBank" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="application.ProgramBank" />
       <module name="java-course-exercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="application.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -131,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ProgramBank" />
         <item itemvalue="Application.ProgramStudent" />
         <item itemvalue="Application.ProgramEmployee" />
         <item itemvalue="Application.ProgramRectangle" />
         <item itemvalue="Application.ProgramTriangle" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -160,6 +167,7 @@
       <workItem from="1721558224284" duration="2104000" />
       <workItem from="1721561769215" duration="227000" />
       <workItem from="1721562006666" duration="3097000" />
+      <workItem from="1721763231403" duration="1942000" />
     </task>
     <task id="LOCAL-00001" summary="basic while">
       <option name="closed" value="true" />
