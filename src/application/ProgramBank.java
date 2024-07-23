@@ -8,18 +8,22 @@ public class ProgramBank {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the account number: ");
+        BankAccount bankAccount;
+
         int account = sc.nextInt();
         System.out.println("Enter the account holder name: ");
         String holder = sc.next();
         System.out.println("Is there an initial deposit? (Y/N)");
         String doInitialDeposit = sc.next();
-        double amount = 0.00;
+
         if (doInitialDeposit.equalsIgnoreCase("Y")) {
             System.out.println("Enter the amount to deposit: ");
-            amount = sc.nextDouble();
+            double amount = sc.nextDouble();
+            bankAccount = new BankAccount(account, holder, amount);
+        }else{
+            bankAccount = new BankAccount(account, holder);
         }
 
-        BankAccount bankAccount = new BankAccount(account, holder, amount);
         System.out.println("Account data: Account " + bankAccount.getAccountNumber() + ", Holder " + bankAccount.getAccountHolder() + ", Balance " + bankAccount.getBalance());
 
         int operation;
