@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="90b1b7e6-c2a8-45bb-bd79-f51304ec8468" name="Changes" comment="Bank account exercise">
+    <list default="true" id="90b1b7e6-c2a8-45bb-bd79-f51304ec8468" name="Changes" comment="improving constructors usage">
+      <change afterPath="$PROJECT_DIR$/src/application/ProgramVector.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entities/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/BankAccount.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +55,7 @@
     "Application.ProgramRectangle.executor": "Run",
     "Application.ProgramStudent.executor": "Run",
     "Application.ProgramTriangle.executor": "Run",
+    "Application.ProgramVector.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
@@ -69,7 +70,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ProgramBank">
+  <component name="RunManager" selected="Application.ProgramVector">
     <configuration name="ProgramBank" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="application.ProgramBank" />
       <module name="java-course-exercises" />
@@ -122,8 +123,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProgramTriangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="application.ProgramTriangle" />
+    <configuration name="ProgramVector" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="application.ProgramVector" />
       <module name="java-course-exercises" />
       <extension name="coverage">
         <pattern>
@@ -137,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ProgramVector" />
         <item itemvalue="Application.ProgramBank" />
         <item itemvalue="Application.ProgramStudent" />
         <item itemvalue="Application.ProgramEmployee" />
         <item itemvalue="Application.ProgramRectangle" />
-        <item itemvalue="Application.ProgramTriangle" />
       </list>
     </recent_temporary>
   </component>
@@ -166,7 +167,9 @@
       <workItem from="1721558224284" duration="2104000" />
       <workItem from="1721561769215" duration="227000" />
       <workItem from="1721562006666" duration="3097000" />
-      <workItem from="1721763231403" duration="2183000" />
+      <workItem from="1721763231403" duration="2675000" />
+      <workItem from="1721853628963" duration="19000" />
+      <workItem from="1722695228264" duration="3103000" />
     </task>
     <task id="LOCAL-00001" summary="basic while">
       <option name="closed" value="true" />
@@ -208,7 +211,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721765267910</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="improving constructors usage">
+      <option name="closed" value="true" />
+      <created>1721765735525</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1721765735525</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,6 +243,7 @@
     <MESSAGE value="Rectangle exercise" />
     <MESSAGE value="Employee salary exercise" />
     <MESSAGE value="Bank account exercise" />
-    <option name="LAST_COMMIT_MESSAGE" value="Bank account exercise" />
+    <MESSAGE value="improving constructors usage" />
+    <option name="LAST_COMMIT_MESSAGE" value="improving constructors usage" />
   </component>
 </project>
